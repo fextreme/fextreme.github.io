@@ -109,13 +109,13 @@ html, body{margin:0px; padding:0px;}
 .hi-01 h2{
 	color:#383838;
 	font-weight:500;
-	font-size:30px;
+	font-size:26px;
 }
 
 .hi-01 h3{
 	color:#383838;
 	font-weight:300;
-	font-size:20px;
+	font-size:18px;
 }
 
 .hi-02{
@@ -129,13 +129,13 @@ html, body{margin:0px; padding:0px;}
 .hi-02 h2{
 	color:#FFCA2C;
 	font-weight:500;
-	font-size:30px;
+	font-size:26px;
 }
 
 .hi-02 h3{
 	color:#fff;
 	font-weight:300;
-	font-size:20px;
+	font-size:18px;
 }
 
 .hi-03{
@@ -149,13 +149,14 @@ html, body{margin:0px; padding:0px;}
 .hi-03 h2{
 	color:#FFCA2C;
 	font-weight:500;
-	font-size:30px;
-	font-size:20px;
+	font-size:26px;
+	
 }
 
 .hi-03 h3{
 	color:#fff;
 	font-weight:300;
+	font-size:18px;
 }
 
 /**/
