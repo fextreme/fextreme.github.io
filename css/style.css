@@ -262,3 +262,5 @@ html, body{margin:0px; padding:0px;}
     color: #9f9f9f;
     border-bottom-style: solid;
 }
+
+.logo-footer img{max-width:200px;}
