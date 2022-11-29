@@ -265,7 +265,7 @@ html, body{margin:0px; padding:0px;}
     border-bottom-style: solid;
 }
 
-.clientes-logos{display:grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap:40px;}
+.clientes-logos{display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap:40px;}
 
 .footer-logo img{max-width:200px;}
 .footer-contato{display: grid; align-content: center;}
@@ -283,6 +283,7 @@ html, body{margin:0px; padding:0px;}
 	.footer-logo{text-align: center;}
 	.footer-int{text-align: center;}
 	.footer-add{text-align: center;}
+	.clientes-logos {grid-template-columns: 1fr 1fr;}
 }
 
 @media screen and (max-width: 560px) {
@@ -300,6 +301,7 @@ html, body{margin:0px; padding:0px;}
 	.hi-03 h3 {font-size: 28px;}
 	.padrao-titulo {grid-template-columns: 2fr 1fr;}
 	.galeria-titulo {grid-template-columns: 2fr 1fr;}
+	
 }
 
 @media screen and (max-width: 460px) {
@@ -312,4 +314,103 @@ html, body{margin:0px; padding:0px;}
 	.hi-03 h2 {font-size: 30px;}
 	.hi-03 h3 {font-size: 20px;}
 	.areas-atuacao {grid-template-columns: 1fr;}
+	.clientes-logos {grid-template-columns: 1fr;}
+}
+
+/* Animação */
+
+[data-anime1] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-anime1="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime1="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime1="top"] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anime1].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+
+/* Animação */
+
+[data-anime2] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-anime2="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime2="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime2="top"] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anime2].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+/* Animação */
+
+[data-anime3] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-anime3="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime3="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime3="top"] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anime3].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+
+/* Animação */
+
+[data-anime4] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-anime4="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime4="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime4="top"] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anime4].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
 }
